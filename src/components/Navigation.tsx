@@ -12,19 +12,7 @@ const Navigation = () => {
           to="/" 
           className={`text-white px-3 py-1 rounded ${location.pathname === '/' ? 'bg-purple-700' : 'hover:bg-purple-900'}`}
         >
-          Cosmic Visualization
-        </Link>
-        <Link 
-          to="/energy-generator" 
-          className={`text-white px-3 py-1 rounded ${location.pathname === '/energy-generator' ? 'bg-purple-700' : 'hover:bg-purple-900'}`}
-        >
-          Power Generator
-        </Link>
-        <Link 
-          to="/sacred-geometry" 
-          className={`text-white px-3 py-1 rounded ${location.pathname === '/sacred-geometry' ? 'bg-purple-700' : 'hover:bg-purple-900'}`}
-        >
-          Sacred Geometry
+          Unified Power System
         </Link>
       </div>
     </div>
