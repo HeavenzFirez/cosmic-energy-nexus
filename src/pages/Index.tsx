@@ -1,5 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
+import Navigation from '../components/Navigation';
 
 const Index = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -265,6 +266,9 @@ const Index = () => {
         ref={canvasRef} 
         className="block absolute inset-0 z-10"
       ></canvas>
+      
+      {/* Navigation */}
+      <Navigation />
       
       {/* Cosmic message */}
       <div className="absolute top-5 left-1/2 transform -translate-x-1/2 text-center text-2xl text-[#FFD700] z-20">
