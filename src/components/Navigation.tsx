@@ -20,6 +20,12 @@ const Navigation = () => {
         >
           Power Generator
         </Link>
+        <Link 
+          to="/sacred-geometry" 
+          className={`text-white px-3 py-1 rounded ${location.pathname === '/sacred-geometry' ? 'bg-purple-700' : 'hover:bg-purple-900'}`}
+        >
+          Sacred Geometry
+        </Link>
       </div>
     </div>
   );
